@@ -1,0 +1,22 @@
+{
+  "name": "nimble",
+  "version": "1.0.0",
+  "description": "A handful of miscellaneous utilities",
+  "private": true,
+  "main": "client/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://git-aws.internal.justin.tv/hedgehog/nimble"
+  },
+  "scripts": {
+    "test": "exit 1"
+  },
+  "dependencies": {
+    "async-json": "0.0.2",
+    "minixperiment-client": "git+ssh://git@git-aws.internal.justin.tv/common/minixperiment-client-js#v0.5.0",
+    "platform": "^1.3.5",
+    "query-string": "^6.1.0",
+    "shortid": "^2.2.8",
+    "mobx": "^3.4.1"
+  }
+}
